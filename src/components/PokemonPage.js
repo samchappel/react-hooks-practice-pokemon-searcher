@@ -23,7 +23,7 @@ function PokemonPage() {
       <br />
       <PokemonForm />
       <br />
-      <Search setSearchTerm={setSearchTerm} updateSearch={setSearchTerm}/>
+      <Search setSearchTerm={setSearchTerm} />
       <br />
       <PokemonCollection pokemons={pokemons} searchTerm={searchTerm} filteredPokemon={filteredPokemon}/>
     </Container>
